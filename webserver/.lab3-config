@@ -1,0 +1,16 @@
+# the absolute path to the document root 
+root = /home/ubuntu/dv1457-httpd/www
+
+# the port used by the webserver, the maximum value cannot exceed 65535
+port = 8080
+
+# request method used by the server
+# possible values: 'fork' or 'mux'
+handler = mux
+
+# backlog
+backlog = 0
+
+# name of the mime file for all various mime types.
+# this file must be present in the document_root specified above.
+mime = mime.types
